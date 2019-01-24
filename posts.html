@@ -1,0 +1,32 @@
+---
+title: BESSIE TAO
+layout: default
+---
+	<body class="no-sidebar">
+
+		{% include nav.html %}
+
+		<!-- Main -->
+			<div id="main-wrapper">
+				<div class="container">
+
+					<!-- Content -->
+						<article class="box post">
+							<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic01.jpg" alt="" /></a>
+							<header>
+								 <h2>The Blog</h2>
+							</header>
+					   	... <!-- Blank space -->
+						</article>
+
+						<ul>
+                {% for post in site.posts %}
+                       <li>
+                       <a href="{{ post.url }}"><strong> {{ post.title }} </strong></a>
+                       <p> {{ post.excerpt }} </p>
+                       </li>
+                {% endfor %}
+            </ul>
+
+				</div>
+			</div>

@@ -101,7 +101,7 @@
 	hr
 	{
 		border: 0;
-		border-top: solid 1px #dddddd;
+		border-top: solid 0px #dddddd;
 		height: 1px;
 		margin: 2em 0 2em 0;
 	}
@@ -730,14 +730,14 @@
 	#header-wrapper
 	{
 		position: relative;
-		background: #ffffff;
-		border-bottom: solid 1px #ccc;
+		background: #f8f8f8;
+		border-bottom: solid 0px #ccc;
 	}
 
 	#main-wrapper
 	{
 		position: relative;
-		background: #f7f7f7 url('images/bg02.png');
+		background: #f8f8f8 url('images/bg02.png');
 	}
 
 		#main-wrapper:before
@@ -747,7 +747,7 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
+			background: url('images/bg.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
@@ -759,7 +759,7 @@
 
 			#main-wrapper .major h2
 			{
-				background: #f7f7f7 url('images/bg02.png');
+				background: #ffffff url('images/bg.png');
 			}
 
 	#footer-wrapper

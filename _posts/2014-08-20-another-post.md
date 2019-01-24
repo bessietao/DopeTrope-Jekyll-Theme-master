@@ -7,7 +7,7 @@ categories:
 
 Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
 
-<img id="center_image" src="assets/images/pic5.jpg">
+<img id="center_image" src="assets/images/pic05.jpg">
 
 <style>
 #center_image{
