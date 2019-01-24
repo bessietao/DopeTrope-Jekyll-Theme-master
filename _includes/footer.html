@@ -8,7 +8,7 @@
 									<h2>The Blog</h2> <!-- This header used to say "Blandit nisl adipiscing"</header>-->
 								</header>
 								<ul class="dates">
-								{% for post in site.posts offset: 0 limit: 3 %}
+								{% for post in site.categories.pinned offset: 0 limit: 3 %}
 									<li>
 										<span class="date">{{ post.date | date: "%b"}} <strong>{{ post.date | date: "%d"}}</strong></span>
 										<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
